@@ -1,0 +1,5 @@
+#创建镜像
+docker build -t zuul .
+
+#启动容器
+docker run -p 1145:1145 zuul
